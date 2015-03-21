@@ -11,7 +11,7 @@ shinyUI(navbarPage("My Shiny App",
         tabPanel("README",
             headerPanel("Introduction to my Shiny App"),
                 mainPanel(p("In this app, pretend that you are the operational manager of WacDonald's Restaurant."),
-                        p("One of your job is to keep track of the upkeep cost and revenue everyday. 
+                        p("One of your job is to keep track of the sales of food item everyday. 
                           You decided to come up with this Shiny app to display the data in a neat way."),
                         p("The input for this Shiny app is the ", strong("Operational Date"), " while the output are some graphs.")
                         )),
